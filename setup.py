@@ -34,7 +34,7 @@ setup(
     package_data={
         "tn": [
             "*.fst", "chinese/data/*/*.tsv", "english/data/*/*.tsv",
-            "english/data/*.tsv", "english/data/*/*.far"
+            "english/data/*.tsv", "english/data/*/*.far", "japanese/data/*/*.tsv", "japanese/rules/*.py"
         ],
         "itn": ["*.fst", "chinese/data/*/*.tsv"],
     },
