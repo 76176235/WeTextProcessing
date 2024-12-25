@@ -15,8 +15,7 @@ import sys
 
 from setuptools import setup, find_packages
 
-version = sys.argv[-1].split('=')[1]
-sys.argv = sys.argv[0:len(sys.argv) - 1]
+version = '0.0.0'
 
 with open("README.md", "r", encoding="utf8") as fh:
     long_description = fh.read()
